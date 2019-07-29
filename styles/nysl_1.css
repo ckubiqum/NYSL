@@ -1,0 +1,66 @@
+body {
+    background: rgba(119, 42, 28, 0.89);
+  }
+header {
+     height: 400px;
+     text-align: center;
+     color: white;
+     padding-top: 5px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 1.5em;
+    } 
+    
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0;
+      }
+#header {
+    background-image: url("./design1_image1.jpeg");
+    background-size: cover;
+    background-position: top;
+ }
+
+ #vertical-menu {
+    width: 150px; /* Set a width if you like */
+    float:left;
+    padding-top: 30px;
+
+  }
+ #vertical-menu a {
+    background-color: rgb(247, 21, 21); /* Grey background color */
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  #vertical-menu a:hover {
+    background-color: rgb(243, 155, 22); /* Dark grey background on mouse-over */
+  }
+  
+  #vertical-menu a.active {
+    background-color: rgb(250, 94, 21); /* Add a green color to the "active/current" link */
+    color: white;
+
+  }
+  
+  #logo {
+    margin-top: 220px;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  #text {
+      margin-left: 200px;
+  }
+
+  #subheader {
+      background-color: rgb(67, 104, 7);
+      margin-top: -130px;
+      
+  }
+
+  main {
+      padding-top: 15px;
+      color: white;
+  }
