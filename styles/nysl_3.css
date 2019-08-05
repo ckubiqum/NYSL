@@ -96,6 +96,7 @@ ul {
 }
 
 
+/* menu */
 
 /* unvisited link */
 a:link {
@@ -141,6 +142,7 @@ a:visited {
 
 }
 
+/* list */
 .game-information {
   color: rgb(255, 255, 255);
   text-align: justify;
@@ -159,51 +161,47 @@ th {
   padding-right: 5px;
 }
 
-.form {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: auto;
-}
 
-.form div {
-  flex-grow: 1;
-  width: 100%;
-  padding-bottom: 10px;
-}
-
-.form input {
-  flex-grow: 1;
-  padding: 2px;
-}
+/* formulario */
 
 .box {
+  padding-top: 20px;
+  padding-bottom: 2px;
   display: flex;
+
 }
 
-.dategender {
-  display: flex;
+
+
+.columns {
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.firstcolumn {
+  padding-right: 70px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+}
+
+.columntitle {}
 
 .button input {
   width: 10%;
   flex-grow: 0;
   margin-left: auto;
-  margin-right: 14px;
+  margin-right: 0px;
   font-size: 30px;
   color: #022833;
   background-color: rgb(157, 255, 0);
-}
-
-
-
-
-
-.pregunta {
-  font-size: 20px;
-  margin-left: 0px;
-  margin-right: auto;
 }
 
 
